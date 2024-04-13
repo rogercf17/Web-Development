@@ -34,9 +34,10 @@ function dividir() {
     var numero1 = parseFloat(document.getElementById('numero1').value);
     var numero2 = parseFloat(document.getElementById('numero2').value);
 
-    if (numero2 == 0) {
+    if (numero2 === 0) {
         resultado.innerText = 'Impossível dividir por 0'
-    }else {
+    }
+    else {
         var dividir = numero1 / numero2;
         resultado.innerText = `${numero1} / ${numero2} = ${dividir}`;
     }
