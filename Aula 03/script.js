@@ -20,9 +20,12 @@
 let item = 'Queijo';
 switch(item) {
     case 'Pão':
-        console.log('é pão.');
+        console.log('é pão.'); 
         break;
     case 'Queijo':
         console.log('é queijo.');
+        break;
+    default:
+        console.log('valor inválido.')
         break;
 }
