@@ -4,7 +4,7 @@
 }
 
 body {
-    background-image: url("img.jpg");
+    background-image: url("../img/img.jpg");
     font-family: "Sedan SC", serif;
     font-weight: 400;
     display: flex;
