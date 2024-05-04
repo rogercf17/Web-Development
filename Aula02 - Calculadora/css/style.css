@@ -58,15 +58,17 @@ input[type=number] {
     width: 70%;
     border-radius: 10px;
     text-align: center;
+    border: solid 1px transparent;
 }
 
 #btnClicar {
-    width: 50px;
+    width: 80px;
     text-align: center;
-    border: 0.5px solid grey;
-    background-color: black;
+    border: 0.5px solid black;
+    background-color: white;
     color: white;
     cursor: pointer;
+    border-radius: 12px;
 }
 
 #btnLimpar {
@@ -106,4 +108,9 @@ input[type=number] {
 
 .box-resultado h3 {
     margin-bottom: 10%;
+}
+
+.icon {
+    width: 20px;
+    height: 24px;
 }
