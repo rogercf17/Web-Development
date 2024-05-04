@@ -1,38 +1,22 @@
-// While
-// function calcular() {
-//     var numero = parseInt(document.getElementById("numero").value);
-//     let i = numero;
+function somar(num1, num2) {
+    return num1 + num2;
+}
 
-//     while (i >= 0){
-//         console.log(i);
-//         i--;
-//     }
-// }
-// function calcular() {
-//     var numero = parseInt(document.getElementById("numero").value);
-//     let i = 0;
+function printarNaTela() {
+    let num1 = parseInt(document.getElementById("num1").value);
+    let num2 = parseInt(document.getElementById("num2").value);
+    var resultado = somar(num1, num2);
+    console.log(resultado);
+}
 
-//     while (numero >= i) {
-//         console.log(numero);
-//         numero --;
-//     }
-// }
+function limparTela() {
+    document.getElementById('num1').value='';
+    document.getElementById('num2').value='';
+}
 
-// For
-// for (let c = 0; c <= 10; c++) {
-//     console.log(c);
-// }
-// console.log("\n")
-// for (let c = 0; c <= 10; c+=2) {
-//     console.log(c);
-// }
-// function calcular() {
-//     var numero = parseInt(document.getElementById("numero").value);
-//     console.log(`Divisores de ${numero}`)
-//     for (let i = 1; i < numero; i++) {
-//         if (numero % i == 0){
-//             console.log(i);
-//         }
-//     }
-//     console.log("\n");
-// }
+const pessoas = ['Caio', 'Fulano', 'Cliclano', true, 15];
+console.log(pessoas[0]);
+console.log(pessoas.length);
+console.log(typeof pessoas[1]);
+console.log(typeof pessoas[3]);
+console.log(typeof pessoas[4]);;
