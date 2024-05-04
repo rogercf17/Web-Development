@@ -42,3 +42,9 @@ function dividir() {
         resultado.innerText = `${numero1} / ${numero2} = ${dividir}`;
     }
 }
+
+function limparTela() {
+    document.getElementById("numero1").value = '';
+    document.getElementById("numero2").value = '';
+    resultado.innerText = '';
+}

@@ -10,14 +10,13 @@
         <title>Caluladora</title>
     </head>
     <body>
-        <h1 class="title">Calculadora HTML + JS + CSS</h1>
         <div class="box">
             <div class="box-form">
                 <label for="numero1">Número 1:</label>
-                <input type="number" id="numero1" placeholder="Digite aqui">
+                <input type="number" id="numero1" placeholder="Digite aqui:">
                 <br>
                 <label for="numero2">Número 2:</label>
-                <input type="number" id="numero2" placeholder="Digite aqui">
+                <input type="number" id="numero2" placeholder="Digite aqui:">
                 <br> 
                 <div class="box-operações">
                     <button id="btnClicar" onclick="somar()">+</button>
@@ -31,6 +30,7 @@
                 <h3 id="resultado"></h3>
             </div>
         </div>
+        <button id="btnLimpar" onclick="limparTela()">Limpar</button>
         <script src="main.js"></script>  
     </body>
 </html>
