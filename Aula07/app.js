@@ -57,7 +57,7 @@ function renderizarNaTela() {
         filme => {
             let novoFilme = document.createElement('li');
             novoFilme.innerHTML = `
-                <h1>Nome: ${filme.nome}</h1>
+                <h2>${filme.nome}</h2>
                 <p>Lançamento: ${filme.ano}</p>
                 <p>Diretor: ${filme.diretor}</p>
                 <br>
