@@ -60,6 +60,8 @@ function renderizarNaTela() {
                 <h1>Nome: ${filme.nome}</h1>
                 <p>Lançamento: ${filme.ano}</p>
                 <p>Diretor: ${filme.diretor}</p>
+                <br>
+                <br>
                 <button id="criar" onclick="editarFilme(${filmes.indexOf(filme)})"> Editar </button>
                 <button id="apagar" onclick="apagarFilme(${filmes.indexOf(filme)})"> Apagar </button>
             `;
